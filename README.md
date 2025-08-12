@@ -1,21 +1,30 @@
-# Company Location Scraper (Octoparse)
-
-This project scrapes company location data from LinkedIn using **Octoparse** and cross-verifies it with the **Ministry of Corporate Affairs (MCA)** database.
+# CodeAlpha Internship - Task 1: Web Scraping with Octoparse
 
 ## 📌 Project Overview
-The goal of this project is to demonstrate data extraction using **Octoparse** and compare operational vs legal addresses for companies.
+This project is part of my CodeAlpha internship.  
+For Task 1, I used **Octoparse** (a no-code web scraping tool) to extract the IMDb Top 250 Movies list and saved it into a CSV file.
 
-## 🛠️ Tools & Technologies
-- **Octoparse** (No-code web scraping tool)
-- **CSV/Excel** for storing results
-- **MCA Portal** for verification
+## 🛠️ Tools Used
+- **Octoparse** – For building and running the scraping workflow
+- **CSV** – For storing the scraped data
 
-## 📂 Data Collected
-For example, for *Labmentix Edtech Pvt. Ltd.*:
-- **MCA Registered Address:** Maharashtra, India
-- **LinkedIn Listed Location:** Bengaluru, Karnataka, India
+## 📂 Files in Repository
+- `imdb_top_250.csv` → Output CSV containing movie data scraped from IMDb
+- `README.md` → Project documentation
 
-> Note: It is common for a company's operational location to differ from its registered address.
+## 📊 Data Extracted
+The scraper collects:
+- 🎬 Movie Title  
+- 📅 Release Year  
+- ⭐ IMDb Rating  
 
-## 📊 Output Format
-The extracted data is stored in a `.csv` file with columns:
+## 🚀 How I Did It
+1. Opened Octoparse and created a **new task** for IMDb Top 250.
+2. Configured the workflow to:
+   - Load the IMDb Top 250 page.
+   - Extract movie title, year, and rating.
+   - Loop through all pages (if applicable).
+3. Ran the workflow and exported the results to a CSV file.
+
+## 📌 Output
+The scraper generated:
