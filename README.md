@@ -27,4 +27,5 @@ The scraper collects:
 3. Ran the workflow and exported the results to a CSV file.
 
 ## 📌 Output
-The scraper generated:
+The scraper generated: <img src="https://github.com/Ayush1824/CodeAlpha_Task1-Web-Scraping-/blob/main/Screenshot%20(57).png" width="600">
+
